@@ -1,6 +1,6 @@
 # toutiao
 
-> A Vue.js project
+> 一个类似今日头条的新闻App
 
 ## Build Setup
 
