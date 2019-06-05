@@ -1,6 +1,6 @@
 # wtt
 
-> A Vue.js project
+> 一个网址管理端，与App配合使用，这个网站端主要管理用户信息，新闻信息。
 
 ## Build Setup
 
