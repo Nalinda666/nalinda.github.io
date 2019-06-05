@@ -1,0 +1,231 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+body, button, input, select, textarea {
+	font: 12px/1.5tahoma, arial, \5b8b\4f53;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+}
+
+address, cite, dfn, em, var {
+	font-style: normal;
+}
+
+code, kbd, pre, samp {
+	font-family: couriernew, courier, monospace;
+}
+
+small {
+	font-size: 12px;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+sup {
+	vertical-align: text-top;
+}
+
+sub {
+	vertical-align: text-bottom;
+}
+
+legend {
+	color: #000;
+}
+
+fieldset, img {
+	border: 0;
+}
+
+button, input, select, textarea {
+	font-size: 100%;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-color: #c3c3c3;
+}
+.pointer{
+	cursor: pointer;
+}
+.clear{
+	zoom:1;
+}
+.clear:after{
+	display: block;
+	content: '.';
+	clear: both;
+	line-height: 0;
+	visibility: hidden;
+}
+.red{
+	color: red!important;
+}
+.white{
+	color: #fff;
+}
+
+.link_blue{
+	color: #1056ae;
+}
+.sl1{
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.t_c{
+	text-align: center;
+}
+@media (max-width: 1441px) {
+  html {
+    font-size: 192px;
+  }
+}
+@media (max-width: 1281px) {
+  html {
+    font-size: 170.6666px;
+  }
+}
+@media (max-width: 1081px) {
+  html {
+    font-size: 144px;
+  }
+}
+@media (max-width: 1025px) {
+  html {
+    font-size: 136.5333px;
+  }
+}
+@media (max-width: 961px) {
+  html {
+    font-size: 128px;
+  }
+}
+@media (max-width: 951px) {
+  html {
+    font-size: 126.6666px;
+  }
+}
+@media (max-width: 901px) {
+  html {
+    font-size: 120px;
+  }
+}
+@media (max-width: 801px) {
+  html {
+    font-size: 106.6666px;
+  }
+}
+@media (max-width: 774px) {
+  html {
+    font-size: 103.0666px;
+  }
+}
+@media (max-width: 769px) {
+  html {
+    font-size: 102.4px;
+  }
+}
+@media (max-width: 751px) {
+  html {
+    font-size: 100px;
+    /*这里的100px,对应的750的屏幕*/
+  }
+}
+@media (max-width: 737px) {
+  html {
+    font-size: 98.1333px;
+  }
+}
+@media (max-width: 733px) {
+  html {
+    font-size: 97.6px;
+  }
+}
+@media (max-width: 732px) {
+  html {
+    font-size: 97.4666px;
+  }
+}
+@media (max-width: 668px) {
+  html {
+    font-size: 88.9333px;
+  }
+}
+@media (max-width: 641px) {
+  html {
+    font-size: 85.3333px;
+  }
+}
+@media (max-width: 601px) {
+  html {
+    font-size: 80px;
+  }
+}
+@media (max-width: 569px) {
+  html {
+    font-size: 75.7333px;
+  }
+}
+@media (max-width: 534px) {
+  html {
+    font-size: 71.0666px;
+  }
+}
+@media (max-width: 436px) {
+  html {
+    font-size: 58px;
+  }
+}
+@media (max-width: 415px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+@media (max-width: 412px) {
+  html {
+    font-size: 54.8px;
+  }
+}
+@media (max-width: 385px) {
+  html {
+    font-size: 51.2px;
+  }
+}
+@media (max-width: 376px) {
+  html {
+    font-size: 50px;
+  }
+}
+@media (max-width: 361px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media (max-width: 321px) {
+  html {
+    font-size: 42.6666px;
+  }
+}
+/*type=number去掉增减*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+	-webkit-appearance: none !important;
+	margin: 0;
+}
